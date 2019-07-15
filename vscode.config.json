@@ -1,0 +1,104 @@
+{
+  "editor.autoIndent": true,
+  "editor.colorDecorators": false,
+  "editor.cursorWidth": 2,
+  "editor.cursorStyle": "line",
+  "editor.cursorBlinking": "solid",
+  "editor.find.seedSearchStringFromSelection": true,
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 12,
+  "editor.fontWeight": "400",
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "editor.detectIndentation": false,
+  "editor.lineHeight": 18,
+  "editor.letterSpacing": 0.6,
+  "editor.matchBrackets": false,
+  "editor.minimap.enabled": false,
+  "editor.minimap.showSlider": "always",
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.parameterHints.enabled": false,
+  "editor.quickSuggestionsDelay": 30,
+  "editor.renderWhitespace": "none",
+  "editor.rulers": [80],
+  "editor.scrollBeyondLastLine": true,
+  "editor.showFoldingControls": "mouseover",
+  "editor.snippetSuggestions": "top",
+  "editor.suggestSelection": "first",
+  "editor.tabSize": 2,
+  "editor.useTabStops": true,
+  "editor.wordWrap": "on",
+
+  "eslint.autoFixOnSave": true,
+  "eslint.alwaysShowStatus": true,
+  "eslint.validate": [
+    "javascript",
+    {
+      "language": "vue",
+      "autofix": true
+    }
+  ],
+
+  "explorer.confirmDragAndDrop": false,
+
+  "bracket-pair-colorizer-2.highlightActiveScope": true,
+  "bracket-pair-colorizer-2.showBracketsInGutter": true,
+  "bracket-pair-colorizer-2.showBracketsInRuler": true,
+  "bracket-pair-colorizer-2.colors": ["Gold", "Orchid", "LightSkyBlue"],
+  "bracket-pair-colorizer-2.activeScopeCSS": [
+    "backgroundColor: {color}",
+    "borderStyle : solid",
+    "borderWidth : 1px",
+    "borderColor : {color}",
+    "opacity: 0.65"
+  ],
+  "extensions.ignoreRecommendations": false,
+  "prettier.disableLanguages": ["js"],
+  "prettier.arrowParens": "avoid",
+  "prettier.singleQuote": true,
+  "vetur.format.defaultFormatter.stylus": "stylus-supremacy",
+
+  "files.insertFinalNewline": true,
+  "files.trimTrailingWhitespace": true,
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/.next": true
+  },
+
+  "html.format.enable": true,
+  "html.format.preserveNewLines": true,
+  "[javascript]": {
+    "editor.formatOnSave": false
+  },
+  "languageStylus.useSeparator": false,
+  "stylusSupremacy.insertBraces": false,
+  "stylusSupremacy.insertColons": false,
+  "stylusSupremacy.insertSemicolons": false,
+  "stylusSupremacy.sortProperties": "alphabetical",
+  "stylusSupremacy.quoteChar": "'",
+  "stylusSupremacy.insertNewLineAroundBlocks": false,
+
+  "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+
+  "breadcrumbs.enabled": false,
+  "window.title": "${dirty} ${activeEditorMedium}${separator}${rootName}",
+  "window.closeWhenEmpty": true,
+  "window.openFilesInNewWindow": "off",
+  "window.zoomLevel": 0,
+
+  "workbench.colorTheme": "Atom One Dark",
+  "workbench.editor.enablePreview": true,
+  "workbench.editor.enablePreviewFromQuickOpen": false,
+  "workbench.editor.tabCloseButton": "right",
+  "workbench.editor.tabSizing": "shrink",
+  "workbench.activityBar.visible": true,
+  "workbench.sideBar.location": "left",
+  "workbench.startupEditor": "newUntitledFile",
+
+  "vsicons.dontShowNewVersionMessage": true
+}
